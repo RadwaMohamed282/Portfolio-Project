@@ -1,0 +1,51 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto", sans-serif
+}
+:root{
+    --main-color : #009688;
+    --sec-color : #757575; 
+}
+.general-title {
+    color: var(--sec-color);
+}
+.general-title h2 i{
+    color: var(--main-color);
+}
+.Portflio_title{
+    margin-top: -2rem;
+    font-size: 25px;
+}
+.list_info li i{
+    color: var(--main-color);
+}
+
+.progress-bar{
+    background-color: var(--main-color);
+}
+
+.language .rating_lang h6{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.front .content ,.front p span{
+    color: var(--main-color);
+    margin-right: 1rem;
+}
+.front p span.badge{
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 0.2rem 0.5rem;
+    font-size: 1rem;
+}
+.footer{
+    color: black;
+    background-color: var(--main-color);
+}
